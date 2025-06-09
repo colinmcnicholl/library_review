@@ -1,12 +1,12 @@
 ---
-title: A Library Users Observations On The Libraries And Archives Review Phase 1 Cabinet
+title: Observations Of A Library User On The Libraries And Archives Review Phase 1 Cabinet
   Report
-author: "Colin McNicholl"
+author: "A Library User"
 date: "6 June 2025"
 output:
-  word_document: default
   pdf_document: default
   html_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -28,53 +28,55 @@ Paragraph 2 states:
 
 Yes there were closures and a level of service reduction during the period of the Covid pandemic.  However, from a point of view of presentation of data, **total omission of data is not appropriate.** Unusual data points are in fact often revealing.  During the periods of lock-down restrictions there was a particular emphasis made by those persons staffing the library during these periods on library users having their library card on entry to the library and for any issues made.
 
-In England the first lock-down started on 2020/3/23.  Non-essential retail reopened on 2020/6/15. The period between these two dates being 84 days.  Most other business were allowed to re-open on 2020/7/4.  The longer period being of 103 days duration.  A partial lock-down began on 2020/11/5, lasting until 2020/12/2, a period of 27 days.  So worst case a period of 103 + 27 = 130 days lost service in year 2020. Restrictions were put in place from 2021/1/5 until 2021/3/8, a period of 62 days.  That leaves a lot of days, (365 * 2) - (130 + 62) = **538 days from 730 days (or 74% of the period) in both 2020 and 2021 in which serice was available and therefore also data should be available. This data should be provided.**
+In England the first lock-down started on 2020/3/23.  Non-essential retail reopened on 2020/6/15. The period between these two dates being 84 days.  Most other business were allowed to re-open on 2020/7/4.  The longer period being of 103 days duration.  A partial lock-down began on 2020/11/5, lasting until 2020/12/2, a period of 27 days.  So worst case a period of 103 + 27 = 130 days lost service in year 2020. Restrictions were put in place from 2021/1/5 until 2021/3/8, a period of 62 days.  That leaves a lot of days, (365 * 2) - (130 + 62) = **538 days from 730 days (or 74% of the period) in both 2020 and 2021 in which service was available and therefore also data should be available. This data should be provided.**
 
 Statement: "Across 2023-24, users made 170,565 physical and online visits to libraries and were issued with 169,051 reading materials."
 How was 170,565 calculated?  Table 1 states Total number of physical visits 2023-24 as 146,019 and Total e-resource lending 19,767.  146,019 + 19767 = 165,786.  There is understandingly no category called "online visits" and no other combinations of the figures from table 1 that sum to 170,565. **The figure of 170,565 appears to be an error.**
 
-**Any data analysis should include a key to explain the terms used.**  To give a specific example what does a **physical visit** actually mean and how is it measured?  I understand from discussion with a member of library staff that the measurement is taken by some instrument that registers a person (or object, for example a pram) passing through the building entry point.  This should be explained.  Further, it should be made clear to readers of this report that **there exist physical differences in the building layout at each branch, space provision and services provided in those spaces which have a direct impact on the count of physical visits**.  To be specific, at Cleethorpes a person entering the building to visit the tourist information/theater ticket desk only would count as a physical visit.  Also Cleethorpes has toilet provision directly accessible from the adult book lending library space whereas Grimsby and Waltham do not.  At Grimsby is the measurement taken as a person (or object) passes through the sliding door at the top of the steps/wheelchair access ramp into the reception area or is it taken on the entry from the reception area into the book lending area on the ground floor.  If the former then there is some service provision in the reception area space not directly linked the library book loans.  Immingham branch is part of the town council civic center and has a meeting room that seats up to 100.  As another example, what exactly does an **in person issue** mean?  When a library user visits the library in person to renew a loan on a single book does that count as 1 issue?  What about to renew the loan and two books, does this count as two issues?  What about renewals made by telephone or online via a library users account?  **Is there a measure of non in person issues, i.e. re-issues via telephone or made via users online library account?  The ease with which a user can renew a loan is an important element of the library users experience.  If not then should there not be one?  If yes why is it not included in this presentation?**  Another reason to have a key is to for example explain exactly what is meant by the **periods 2018-19, 2019-20, 2022-23, and 2023-24?  As it stands this is ambiguous.** 2023-24 could mean 2023-April-01 to 2024-Mar-31, or 2023-Jun-01 to 2024-May-31, or some other variation.  I suspect it relates to a financial reporting period.  Is this really appropriate for this data?  Would it not be more appropriate to have used the figures for the calendar year?  In short **the terms used in the presentation of data should be explained.**
+**Any data analysis should include a key to explain the terms used.**  To give a specific example **what does a physical visit actually mean and how is it measured?**  I understand from discussion with a member of library staff that the measurement is taken by some instrument that registers a person (or object, for example a pram) passing through the building entry point.  This should be explained.  Further, it should be made clear to readers of this report that **there exist physical differences in the building layout at each branch, space provision and services provided in those spaces which have a direct impact on the count of physical visits**.  To be specific, at Cleethorpes a person entering the building to visit the tourist information/theater ticket desk only would count as a physical visit.  Also Cleethorpes has toilet provision directly accessible from the adult book lending library space whereas Grimsby and Waltham do not.  At Grimsby is the measurement taken as a person (or object) passes through the sliding door at the top of the steps/wheelchair access ramp into the reception area or is it taken on the entry from the reception area into the book lending area on the ground floor.  If the former then there is some service provision in the reception area space not directly linked the library book loans.  Immingham branch is part of the town council civic center and has a meeting room that seats up to 100.  As another example, **what exactly does an in person issue mean?**  When a library user visits the library in person to renew a loan on a single book does that count as 1 issue?  What about to renew the loan and two books, does this count as two issues?  What about renewals made by telephone or online via a library users account?  **Is there a measure of non in person issues, i.e. re-issues via telephone or made via users online library account?  The ease with which a user can renew a loan is an important element of the library users experience.  If not then should there not be one?  If yes why is it not included in this presentation?**  Another reason to have a key is to for example explain exactly what is meant by the **periods 2018-19, 2019-20, 2022-23, and 2023-24?  As it stands this is ambiguous.** 2023-24 could mean 2023-April-01 to 2024-Mar-31, or 2023-Jun-01 to 2024-May-31, or some other variation.  I suspect it relates to a financial reporting period.  Is this really appropriate for this data?  Would it not be more appropriate to have used the figures for the calendar year?  In short **the terms used in the presentation of data should be explained.**
 
-**The manner of presentation of Table 1 Total library service usage with a single shaded column between the two preceeding columns titled 2018-19 and 2019-20 and suceeded by two columns titled 2022-23 and 2023-24 could be misleading.**  At first glance the reader would see one shaded column and equate this to one year when in fact there are two full years of missing data.  This table is presented in the same way in 1.20.  The same applies to Table 2 - Library service usage by branch.
+**All measurement is subject to error.**  Even relatively simple discrete type data such as count measurement of physical visits, in person issues, etc., is subject to error.  Some measurements are subject to more error than others.  The degree depending on the device used to take the measurement.  In addition, the technologies associated with measurement devices have different levels of maintenance need and also reliability.  **What devices and technologies are used to measure e.g., physical visits and in person issues?  Does each branch use devices using the same technology to take the measurements?**  I know one branch uses a different technology to measure one of these counts than other branches.  **Were there periods, within the periods covered by the data in Tables 1 and 2, when the measurement devices were not measuring due to breakdown or due to being taken down for maintenance?**
+
+**The manner of presentation of Table 1 Total library service usage with a single shaded column between the two preceding columns titled 2018-19 and 2019-20 and succeeded by two columns titled 2022-23 and 2023-24 could be misleading.**  At first glance the reader would see one shaded column and equate this to one year when in fact there are two full years of missing data.  This table is presented in the same way in 1.20.  The same applies to Table 2 - Library service usage by branch.
 
 There are **seven discrepancies between the figures presented in Table 1 and their equivalents computed from Table 2.**  These are as follows:
 
-Page 7 Table 1 Total number of in person issues 2018-19 213,924
+1. Total number of in person issues 2018-19 213,924
 Table 2 Total number of in person issues 2018-19
 Cleethorpes 69,824, Grimsby 75,701, Immingham 26,262, Waltham 39,432.
 69,824 + 75,701 + 26,262 + 39,432 = 211,219 and not 213,924.
 
-Page 7 Table 1 Total core event & programme attendance 2018-19 15,608
+2. Total core event & programme attendance 2018-19 15,608
 Table 2 Total core event & programme attendance 2018-19
 Cleethorpes 4,338, Grimsby 2,501, Immingham 1,297, Waltham 5,900
 4,338 + 2,501 + 1,297 + 3,900 = 14,036 and not 15,608
 
-Page 7 Table 1 Total number of computer hours used 2019-20 16,624 
+3. Total number of computer hours used 2019-20 16,624 
 Table 2 Total number of computer hours used 2019-20
 Cleethorpes 5,139, Grimsby 9,934, Immingham 735, Waltham 817
 5,139 + 9,934 + 735 + 817 = 16,625 and not 16,624
 
-Page 7 Table 1 Total core event & programme attendance 2019-20 19,454
+4. Total core event & programme attendance 2019-20 19,454
 Table 2 Total core event & programme attendance 2019-20
 Cleethorpes 5,373, Grimsby 4,093, Immingham 1,459, Waltham 4,997
 5,373 + 4,093 + 1,459 + 4,997 = 15,922 and not 19,454
 
-Page 7 Table 1 Total core event & programme attendance 2022-23 16,619
+5. Total core event & programme attendance 2022-23 16,619
 Table 2 Total core event & programme attendance 2022-23
 Cleethorpes 2,534, Grimsby 1,615, Immingham 1,735, Waltham 2,046
 2,534 + 1,615 + 1,735 + 2,046 = 7,930 and not 16,619
 
-Page 7 Table 1 Total number of physical visits 2023-24 146,019
+6. Total number of physical visits 2023-24 146,019
 Table 2 Total number of physical visits 2023-24
 Cleethorpes 38,287, Grimsby 50,134, Immingham 23,662, Waltham 36,896
 38,287 + 50134 + 23,662 + 36,896 = 148,979 and not 146,019
 
-Page 7 Table 1 Total core event & programme attendance 2023-24 18,521
+7. Total core event & programme attendance 2023-24 18,521
 Table 2 Total core event & programme attendance 2023-24
 Cleethorpes 2,910, Grimsby 1,759, Immingham 1,576, Waltham 2,095
 2,910 + 1,759 + 1,576 + 2,095 = 8,340 and not 18,521
 
-**The raw data from which Table 1 and Table 2 were created are made publically available so that these tables can be reproduced.**
+**The raw data from which Table 1 and Table 2 were created are made publicly available so that these tables can be reproduced.**
 
 Bottom of page 10 states
 "Some of the headline movements include:
@@ -88,12 +90,12 @@ Note that 19,767 is still only less than 12% of the Total number of in person is
 
 Decreases in the number of issues by branch over the same period were: Cleethorpes 26%, Grimsby 27%, Immingham 3%, and Waltham 7%.  There is no mention in the report of the large difference between the levels of decrease seen in Cleethorpes and Grimsby with those seen in Immingham and Waltham.  **If data over a longer period was available I expect changes in the number of issues in the order of [3%, 7%] would be seen to be normal.**
 
-Why choose to compare just 2018-19 with just 2023-23?  What is the justification for this?  Why not compare the average of 2018-19 and 2019-20 with the average of 2022-23 and 2023-24 thereby making more use of the scant amount of data that has been selected to begin with?  Having chosen to select a limited amount of data pre and post covid to then throw half of that away in the comparison is a strange decision.  As it happens, in this case it makes little difference.  Nevertheless, the decision taken is unexplained and rarely appropriate.
+Why choose to compare just 2018-19 with just 2023-23?  What is the justification for this?  Why not compare the average of 2018-19 and 2019-20 with the average of 2022-23 and 2023-24 thereby making more use of the scant amount of data that has been selected to begin with?  Having chosen to select a limited amount of data pre and post Covid to then throw half of that away in the comparison is a strange decision.  As it happens, in this case it makes little difference.  Nevertheless, the decision taken is unexplained and rarely appropriate.
 
 Considering the metric of issues per visit, given that I have little information to go on as to what exactly constitutes a *physical visit* I get the following:
 
 issues per visit | branch      | period
-----------------------------------------
+---------------- | -----       | ------
 0.96             | Cleethorpes | 2018-19
 0.98             | Cleethorpes | 2019-20
 NA               | Cleethorpes | 2020-21
@@ -106,8 +108,8 @@ NA               | Grimsby     | 2020-21
 NA               | Grimsby     | 2021-22
 1.15             | Grimsby     | 2022-23
 1.10             | Grimsby     | 2023-24
-0.55             | Immingham   | 2018-19
-0.60             | Immingham   | 2019-20
+**0.55**         | Immingham   | 2018-19
+**0.60**         | Immingham   | 2019-20
 NA               | Immingham   | 2020-21
 NA               | Immingham   | 2021-22
 1.04             | Immingham   | 2022-23
@@ -119,13 +121,17 @@ NA               | Waltham     | 2021-22
 0.97             | Waltham     | 2022-23
 0.99             | Waltham     | 2023-24
 
-Of interest from the table above is the particularly low values of issues per visit for Immingham for the periods 2018-19 and 2019-20.  What is the reason for this difference in comparison to all other branches?  The other point of interest is that Cleethorpes, Grimsby and Immingham all showed an increase in this ratio and only Waltham showed a decrease.  What are the reason(s) for this?
+Of interest from the table above is the particularly low values of issues per visit for Immingham for the periods 2018-19 and 2019-20.  What is the reason for this difference in comparison to all other branches?  The other point of interest is that Cleethorpes, Grimsby and Immingham all showed an increase in this ratio and only Waltham showed a decrease.  What are the reason(s) for this?  **Have some group(s) stopped using a meeting room in Immingham post Covid because they now choose to meet via video conference?**  The same may apply for the other branches.
 
 ```{r library, echo=FALSE}
-library(tidyverse)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(readr)
+library(stringr)
 library(lubridate)
 
-library_service_usage <- read_csv("~/tmp/daily_practice/library_service_usage.csv")
+library_service_usage <- read_csv("~/Downloads/library-review-main/library_service_usage.csv")
 View(library_service_usage)
 
 dat <- mutate(library_service_usage,
@@ -159,14 +165,16 @@ p1 <- ggplot(data = visits_dat, aes(x=year2,y=count,color=branch)) +
     labs(
         title = paste("Increase in total number of physical visits",
                       "for Waltham"),
-        subtitle = paste("Decreases 2018 vs 2023 for Immingham, Grimsby,",
-                         "\nand Cleethorpes of 51%, 49%, and 47% respectively",
-                         "\nIncrease of 1% for Waltham"),
+        subtitle = paste("Decreases 2018-19 vs 2023-24 for Immingham, Grimsby,",
+                         "and Cleethorpes",
+                         "\n of 51%, 49%, and 47% respectively. Increase of",
+                         "1% for Waltham"),
         caption = paste("Data from Table 2, Library and Archives Review",
                         "Phase 1 Cabinet Report"),
         y = "Total number of physical visits"
     ) +
-    theme(legend.position = "bottom")
+    theme_minimal() +
+  theme(legend.position = "bottom")
 
 issues_dat <- filter(dat, category == 'issues')
 
@@ -183,15 +191,16 @@ p2 <- ggplot(data = issues_dat, aes(x=year2,y=count,color=branch)) +
              label=c("Lockdown1","Lockdown2","Lockdown3"),
              color="blue",size=4,fontface="bold") +
     labs(
-        title = paste("Little change in number of physical issues",
+        title = paste("Little change in number of in person issues",
                       "for Immingham and Waltham"),
-        subtitle = paste("Decreases 2018 vs 2023 for Grimsby, Cleethorpes,",
-                         "\nWaltham, and Immingham, of 27%, 26%, 7% and",
-                         "\n3%  respectively."),
+        subtitle = paste("Decreases 2018-19 vs 2023-24 for Grimsby, Cleethorpes,",
+                         "Waltham, and Immingham,",
+                         "\nof 27%, 26%, 7% and 3% respectively."),
         caption = paste("Data from Table 2, Library and Archives Review",
                         "Phase 1 Cabinet Report"),
         y = "Total number of issues"
     ) +
+  theme_minimal() +
     theme(legend.position = "bottom")
 
 ```
@@ -205,14 +214,22 @@ plot(p1)
 
 ```
 
-It can be clearly seen that **there was no large decrease in the total number of pyhsical visits pre vs post-covid for Waltham branch.  There are two full years of missing data.  Lock-down duration is a small proportion of two year period.**  Why the difference?  Work should be undertaken to explore this in detail.  As a user of Waltham, Grimsby, Cleethorpes and very occasionally Immingham branches I believe that Grimsby and Cleethorpes (and possibly Immingham ?  The current Lincs Inspire website suggests newspapers are provided at Immingham) offered a selection of daily national newspapers pre-covid but not post-covid.  **Was there a silent decision to not renew the newspaper order post covid or was this a considered policy decison?**  Either way, I strongly suspect it is a contributor to the decline in physical visits at Grimsby and Cleethorpes.  Waltham did not offer daily national newspapers pre-covid.  I consider it **innapropriate to use the term trend in the presentation in Figure 4 given the sparse number of data points and the total ommission of data for a 2 year period within the interval presented**  I recommend **data for each year from whenever Lincs Inpire took on management of the 4 branches be made available.**
+It can be clearly seen that **there was no large decrease in the total number of physical visits pre vs post-Covid for Waltham branch.  There are two full years of missing data.  Lock-down duration is a small proportion of two year period.**  Why the difference?  Work should be undertaken to explore this in detail.  As a user of Waltham, Grimsby, Cleethorpes and very occasionally Immingham branches I believe that Grimsby and Cleethorpes (and possibly Immingham ?  The current Lincs Inspire website suggests newspapers are provided at Immingham) offered a selection of daily national newspapers pre-Covid but not post-Covid.  **Was there a silent decision to not renew the newspaper order post Covid or was this a considered policy decision?**  Either way, I strongly suspect it is a contributor to the decline in physical visits at Grimsby and Cleethorpes.  Waltham did not offer daily national newspapers pre-Covid.  I consider it **inappropriate to use the term trend in the presentation in Figure 4 given the sparse number of data points and the total omission of data for a 2 year period within the interval presented**  I recommend **data for each year from whenever Lincs Inpire took on management of the 4 branches be made available.**
 
 ```{r physical issues, echo=FALSE}
 plot(p2)
 
 ```
 
-The plot of Total number of physical issues by branch clearly shows **little change in the number of physical issues pre and post-covid for both Immingham and Waltham** and that the decline in physical issues for Grimsby and Cleethorpes is much less than the headline decline in physical visits.  Here, I draw attention to Table 1 - Emerging themes from consultation and engagement for library service and archives future service design, section 1.18.  In particular Section (5) User experience.  Here it states that **Book stock and wider materials are valued and important for service users, recognising that the library service is more than just books, however reading provision should remain a core focus.**  With this in mind, **why was physical visits chosen as one the headline findings in section 1.21 and not physical issues**, particularly in light of the fact that there are other factors associated with the counting of physical visits that are not related to reading provision.
+The plot of Total number of physical issues by branch clearly shows **little change in the number of physical issues pre and post-Covid for both Immingham and Waltham** and that the decline in physical issues for Grimsby and Cleethorpes is much less than the headline decline in physical visits.  Here, I draw attention to Table 1 - Emerging themes from consultation and engagement for library service and archives future service design, section 1.18.  In particular Section (5) User experience.  Here it states that **Book stock and wider materials are valued and important for service users, recognizing that the library service is more than just books, however reading provision should remain a core focus.**  With this in mind, **why was physical visits chosen as one the headline findings in section 1.21 and not physical issues**, particularly in light of the fact that there are other factors associated with the counting of physical visits that are not related to reading provision?
+
+### Summary and Conclusion
+
+The findings of the needs assessment set out in appendix 1 contain multiple errors.  A large amount of data is missing.  A large amount of data is simply not included.  The presentation of the data could be misleading.  There is no description of how the measurements have been made or any evidence of an appreciation of the importance of being well informed about the nature of the measurements.  There is no evidence of any appreciation of the impact of differences in building layout and service provision in the building spaces at each branch on the physical visit measure.  There is no justification on the selection of particular measurements over others as those to be highlighted and presented in section 1.21. One of the measurements chosen to be highlighted is in error and overstated.  The plots provided in figure 4 fail to reveal important information.
+
+The findings of the needs assessment set out in appendix 1 are deficient.  Therefore, I would not recommend and encourage the Cabinet to support them.
+
+****
 
 ### Phase 1 Consultation Summary
 
