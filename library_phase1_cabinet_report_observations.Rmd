@@ -4,12 +4,14 @@ title: Observations Of A Library User On The Libraries And Archives Review Phase
 author: "A Library User"
 date: "6 June 2025"
 output:
-  word_document: default
   html_document: default
+  always_allow_html: true
+  pdf_document: default
+  word_document: default
 knitr:
-  message: no
+  message: false
   opts_chunk: null
-  warning: no
+  warning: false
 ---
 
 ```{r setup, echo=FALSE}
@@ -34,7 +36,7 @@ Yes there were closures and a level of service reduction during the period of th
 
 In England the first lock-down started on 2020/3/23.  Non-essential retail reopened on 2020/6/15. The period between these two dates being 84 days.  Most other business were allowed to re-open on 2020/7/4.  The longer period being of 103 days duration.  A partial lock-down began on 2020/11/5, lasting until 2020/12/2, a period of 27 days.  So worst case a period of 103 + 27 = 130 days lost service in year 2020. Restrictions were put in place from 2021/1/5 until 2021/3/8, a period of 62 days.  That leaves a lot of days, (365 * 2) - (130 + 62) = **538 days from 730 days (or 74% of the period) in both 2020 and 2021 in which service was available and therefore also data should be available. This data should be provided.**
 
-**A single year difference or just a few observations isn't enough to declare a trend.**  Ideally, you want at least 5-10 years of data (or more) depending on the variability of your dataset.  Short-term fluctuations should not be mistaken for long-term patterns.  **Omitting two years of available data whilst still claiming a trend introduces serious issues of bias and misrepresentation.**  This raises questions about whether the omission was intentional, or just an oversight, but either way it undermines the reliability of the conclusion.  **What justifies the omission?**
+**A single year difference or just a few observations isn't enough to declare a trend.**  Ideally, you want at least 5-10 years of data (or more) depending on the variability of your data set.  Short-term fluctuations should not be mistaken for long-term patterns.  **Omitting two years of available data whilst still claiming a trend introduces serious issues of bias and misrepresentation.**  This raises questions about whether the omission was intentional, or just an oversight, but either way it undermines the reliability of the conclusion.  **What justifies the omission?**
 
 Statement: "Across 2023-24, users made 170,565 physical and online visits to libraries and were issued with 169,051 reading materials."
 How was 170,565 calculated?  Table 1 states Total number of physical visits 2023-24 as 146,019 and Total e-resource lending 19,767.  146,019 + 19767 = 165,786.  There is understandingly no category called "online visits" and no other combinations of the figures from table 1 that sum to 170,565. **The figure of 170,565 appears to be an error.**
@@ -115,11 +117,11 @@ Table 1 on page 7 reports Total e resource lending 2018-19 as 5,055 and Total e 
 
 Note that 19,767 is still only less than 12% of the Total number of in person issues in the same period.
 
-The headline figure of a 43% decline in total physical library visits from 2018-19 to 2023-24 hides the fact that for Waltham there was a 1% increase in physical library visits in the same period.  Neither does it show that The total number of in person issues decreased by 20% over the same period.  The report offers no comment on the differing levels of decline between physical visits and in person issues.  Could it be that library users are visiting the library less often and checking out more books on each visit?  I am confident that **more library users are aware on the limit on the number of books that can be checked out on each issue post covid than was the case pre-covid.** If it is the case that some users are checking out more books on each visit then this would be an example of library user behavioral changes impacting the count of physical visits and not reflecting a reduction in library user engagement.  **The headline figures referred to section 1.21 hide important information and one of these has a significant error.**
+The headline figure of a 43% decline in total physical library visits from 2018-19 to 2023-24 hides the fact that for Waltham there was a 1% increase in physical library visits in the same period.  Neither does it show that The total number of in person issues decreased by 20% over the same period.  The report offers no comment on the differing levels of decline between physical visits and in person issues.  Could it be that library users are visiting the library less often and checking out more books on each visit?  I am confident that **more library users are aware on the limit on the number of books that can be checked out on each issue post-Covid than was the case pre-Covid.** If it is the case that some users are checking out more books on each visit then this would be an example of library user behavioral changes impacting the count of physical visits and not reflecting a reduction in library user engagement.  **The headline figures referred to section 1.21 hide important information and one of these has a significant error.**
 
 Decreases in the number of issues by branch over the same period were: Cleethorpes 26%, Grimsby 27%, Immingham 3%, and Waltham 7%.  There is no mention in the report of the large difference between the levels of decrease seen in Cleethorpes and Grimsby with those seen in Immingham and Waltham.  **If data over a longer period was available I expect changes in the number of issues in the order of [3%, 7%] would be seen to be normal.**
 
-Why choose to compare just 2018-19 with just 2023-23?  **What is the justification for choosing a single year from the before and after the missing data period rather than, say the average of the two years before and after?**  Why not compare the average of 2018-19 and 2019-20 with the average of 2022-23 and 2023-24 thereby making more use of the scant amount of data that has been selected to begin with?  Having chosen to select a limited amount of data pre and post Covid to then throw half of that away in the comparison is a strange decision.  As it happens, in this case it makes little difference.  Nevertheless, the decision taken is unexplained and rarely appropriate.
+Why choose to compare just 2018-19 with just 2023-24?  **What is the justification for choosing a single year from the before and after the missing data period rather than, say the average of the two years before and after?**  Why not compare the average of 2018-19 and 2019-20 with the average of 2022-23 and 2023-24 thereby making more use of the scant amount of data that has been selected to begin with?  Having chosen to select a limited amount of data pre and post Covid to then throw half of that away in the comparison is a strange decision.  As it happens, in this case it makes little difference.  Nevertheless, the decision taken is unexplained and rarely appropriate.
 
 Considering the metric of issues per visit, given that I have little information to go on as to what exactly constitutes a *physical visit* I get the following:
 
@@ -158,7 +160,7 @@ library(readr, quietly = TRUE)
 library(stringr,quietly = TRUE)
 library(lubridate, quietly = TRUE)
 
-library_service_usage <- read_csv("~/tmp/daily_practice/library_service_usage.csv")
+library_service_usage <- read_csv("~/Downloads/library-review-main/library_service_usage.csv", show_col_types = FALSE)
 library_service_usage <- library_service_usage %>% 
     mutate(year2=ymd(str_c(str_sub(year,1,4), "0101")))
 
@@ -186,7 +188,7 @@ ggplot(issues_per_visit, aes(x = year2, y = issues_per_visit, color = branch)) +
 
 Of interest from the table and graph above is the particularly low values of issues per visit for Immingham for the periods 2018-19 and 2019-20.  What is the reason for this difference in comparison to all other branches?  The other point of interest is that Cleethorpes, Grimsby and Immingham all showed an increase in this ratio and only Waltham showed a decrease.  What are the reason(s) for this?  **Have some group(s) stopped using a meeting room in Immingham post Covid because they now choose to meet via video conference?**  The same may apply for the other branches.
 
-```{r library, echo=FALSE}
+```{r library, message=FALSE, echo=FALSE}
 library(ggplot2, quietly = TRUE)
 library(dplyr, quietly = TRUE)
 library(tidyr, quietly = TRUE)
@@ -194,7 +196,7 @@ library(readr, quietly = TRUE)
 library(stringr, quietly = TRUE)
 library(lubridate, quietly = TRUE)
 
-library_service_usage <- read_csv("~/tmp/daily_practice/library_service_usage.csv")
+library_service_usage <- read_csv("~/Downloads/library-review-main/library_service_usage.csv", show_col_types = FALSE)
 
 library_service_usage <- library_service_usage %>% 
     mutate(year2=ymd(str_c(str_sub(year,1,4), "0101")))
@@ -203,7 +205,7 @@ by_year_category <- library_service_usage %>%
     group_by(year2,category)
 
 usage_by_year_category <- by_year_category %>% 
-    summarise(totals = sum(count, na.rm = TRUE))
+    dplyr::summarise(totals = sum(count, na.rm = TRUE), groups = "drop")
 
 visits <- dplyr::filter(library_service_usage, category == 'visits') %>% drop_na(count)
 
@@ -350,14 +352,14 @@ plot(p3)
 
 ```
 
-The plot of the Total number of computer hours used shows large decreases in the total number of computer hours used across all 4 branches and that there is a large gap of missing data in which data would have been available for a large proportion of that time.  It also shows that the absolute number of computer hours used is much greater for Grimsby than Cleethorpes and that the number of computer hours used is, by comparison, very small for both Immingham and Waltham.  Pre-Covid total number of computer hours used for Grimsby and Immingham being of the order of 10,500 and 5700 respectively, and post-Covid 3,100 and 2,500 respectively.  In contrast for Immingham and Waltham we have pre-Covid 1,000 and 800, and post-Covid 425 and 170.  Given that for computer usage the pricing model is free for the first half hour and 50 pence for each half hour thereafter and the increasing pressure on personal budgets perhaps users are limiting themselves more on duration spent using the computer post-Covid. Further, for what uses do users make of their time on the library computers?  The increasing prominence of smart-phone apps for handling bar codes, package labels, and boarding cards may mean users who previously used the computers for printing such documents no longer have a need for hard-copy printing.  **What are the counts of the number of user logins, i.e. how many times has a computer been used, as opposed the the duration of use, for each of these periods?**  This metric would be a confounding factor on the count of physical visits and thus could reveal important information about user engagement.  **What were the durations of computers being not available to users, because of breakdown, maintenance, or wi-fi not being available during each of these periods?**  I would suggest that additional metrics are investigated such as the **number of distinct users per day/month**.  This data should be easily obtainable.
+The plot of the Total number of computer hours used shows large decreases in the total number of computer hours used across all 4 branches and that there is a large gap of missing data in which data would have been available for a large proportion of that time.  It also shows that the absolute number of computer hours used is much greater for Grimsby than Cleethorpes and that the number of computer hours used is, by comparison, very small for both Immingham and Waltham.  Pre-Covid total number of computer hours used for Grimsby and Immingham being of the order of 10,500 and 5700 respectively, and post-Covid 3,100 and 2,500 respectively.  In contrast for Immingham and Waltham we have pre-Covid 1,000 and 800, and post-Covid 425 and 170.  Given that for computer usage the pricing model is free for the first half hour and 50 pence for each half hour thereafter and the increasing pressure on personal budgets perhaps users are limiting themselves more on duration spent using the computer post-Covid. Further, for what uses do users make of their time on the library computers?  The increasing prominence of smart-phone apps for handling bar codes, package labels, and boarding cards may mean users who previously used the computers for printing such documents no longer have a need for hard-copy printing.  **What are the counts of the number of user logins, i.e. how many times has a computer been used, as opposed the the duration of use, for each of these periods?**  This metric would be a confounding factor on the count of physical visits and thus could reveal important information about user engagement.  **What were the duration of computers being not available to users, because of breakdown, maintenance, or wi-fi not being available during each of these periods?**  I would suggest that additional metrics are investigated such as the **number of distinct users per day/month**.  This data should be easily obtainable.
 
 ```{r core event and programme attendance, echo=FALSE}
 plot(p4)
 
 ```
 
-It is not explained exactly what a core event & programme attendance is, nor how it is measured.  The plot of Total core event and programme attendance clearly shows decreases on comparison of the period 2018-19 with 2023-24 at three branches and an increase at the other, and that there is a large period in which data is missing for which service would have been available a large proportion of that period.  The assessment report states "*however, attendance at events and activites has remained constant, supported by grant funded programmes providing new activities.*"  But notice the **large variance in the measure.**  For example, for Grimsby the count for the period 2019-20 was more than one and a half times that for the period 2018-19, and then the count for the period 2022-23 was two fifths of that for 2019-20.  For Cleethorpes the count for the period 2022-23 was only four fifths of that for the period 2023-24.  **This variance undermines and broad claims of "consistency".**
+It is not explained exactly what a core event & programme attendance is, nor how it is measured.  The plot of Total core event and programme attendance clearly shows decreases on comparison of the period 2018-19 with 2023-24 at three branches and an increase at the other, and that there is a large period in which data is missing for which service would have been available a large proportion of that period.  The assessment report states "*however, attendance at events and activities has remained constant, supported by grant funded programmes providing new activities.*"  But notice the **large variance in the measure.**  For example, for Grimsby the count for the period 2019-20 was more than one and a half times that for the period 2018-19, and then the count for the period 2022-23 was two fifths of that for 2019-20.  For Cleethorpes the count for the period 2022-23 was only four fifths of that for the period 2023-24.  **This variance undermines and broad claims of "consistency".**
 
 **Do different branches define events differently (e.g. large workshop vs. casual drop in sessions)?**
 
